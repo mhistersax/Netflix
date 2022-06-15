@@ -1,0 +1,68 @@
+/*  
+   copyright: @mhistersax2022
+   for educational purpose only
+   Netflix landpage clone
+   contact:bamigboyepelumi38@gmail.com
+   github: @Mhistersax
+   please feel free to fork this repo!!!
+*/
+
+/*
+   General selctor for the enitre webpage
+*/
+*{padding: 0px;margin: 0px;}
+/*End of genral selector
+*/
+/*
+   styling for the first segment of the web
+*/
+.first-body{background-image: url("/ASSET/IMAGES/Netflix-Background.jpg");
+    background-repeat: no repeat;height: 640px;position: relative;}
+.nab{display: flex;transition: 0.5s;position:relative;} /*Navbar styling!!!*/
+/*styling for the navbar button [sign in]*/
+.nab .but button{border: none;background-color: #e50914;
+    margin-left: 950px;margin-top: 40px;padding: 6px 20px;
+    font-family: sans-serif;color: white;border-radius: 10px;}
+.nab .but button:hover{padding: 7px 22px;vertical-align: top;}
+.nab .but button:visited{background-color: rgb(250, 70, 70);}/*Hover effect styling button*/
+/*End of styling of navbar button*/
+.logo{margin-top: 30px;margin-left: 30px;display: inline-block;}/*Styling for the netflix logo*/
+/*All the main-cent contain the styling for the first segment for <p> tag*/
+#main-cent{color: white;font-weight: bolder;font-size: 55px;margin-left: 35px;
+    margin-top: 100px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;letter-spacing: 5px;}
+#main-cent1{color: white;margin-left: 55px;padding-top: 20px;
+    font-size: 26px;text-align: center;letter-spacing: 3px;font-family: sans-serif;}
+#main-cent2{padding-top: 20px;color: white;margin-left: 50px;
+    text-align: center;font-family: sans-serif;font-size: 19px;}
+/*End of <p> tag styling*/
+.sec{margin-left: 410px;padding-top: 22px;}/*Div holding the button and text*/
+input::placeholder{color: #8c8c8c;font-size: 16px;position: fixed;padding-top: 10px;}/*Text in the input area styling*/
+.sec input{padding: 8px;width: 380px;border: none;height: 40px;outline: none;}/*Input styling {Email adress}*/
+.sec button{vertical-align: top;padding: 12px 35px;border: none;/*Get started button styling*/
+    background-color: #e50914;color: white;font-size: 26px;}
+.border{height: 19px;background-color: #333333;}/*Styling for the border*/
+/*End of first segment styling*/
+.sec-body{background-color: #000000;height: 550px;position: relative;}
+.sec-body p{color: #fff;font-family: sans-serif;font-size: 55px;font-weight: bold;
+    text-transform: capitalize;padding-top: 79px;padding-left: 70px;}
+.sec-body h6{color: #fff;padding-top: 40px;padding-left: 70px;font-size: 26px;
+    font-family: sans-serif;text-transform: capitalize;}
+.media img{margin-left: 650px;margin-top: -220px;
+   position: absolute;display:inline-block;background: none;}
+.video1{position: absolute;margin-left: 55%;margin-top: -120px;width: 10px;}
+.net2{background-color: black;height: 550px;position: relative;}
+.net3{background-color: black;margin-top: -200px;margin-left: 10%;
+    position: absolute;height: 87px;width: 350px;border: 1px solid white;border-radius: 12px;}
+.net3 img{position: absolute;width: 48px;height: 66px;margin-top: 7px;margin-left: 10px;}
+.net3 p{color: white;font-family: sans-serif;font-size: 20px;padding-left: 70px;padding-top: 28px;text-transform: capitalize;font-weight: bold;}
+#gify{padding-left: 280px;margin-top: -29px;height: 30px;width: 40px;}
+.net3-p{position: relative;}
+.net3-p p{font-family: sans-serif;color: #fff;margin-top: -320px;
+    padding-left: 750px;text-transform: capitalize;font-weight: bold;font-size: 46px;}
+.net3-p h6{color: #fff;padding-left: 750px;margin-top: 10px;
+    font-family: sans-serif;font-size: 26px;letter-spacing: 1px;}
+.net4{background-color: black;height: 200px;width: auto;}
+.net4 p{
+    color: #fff;
+}
